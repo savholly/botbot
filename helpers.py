@@ -27,3 +27,24 @@ def get_avery():
     response = response[0]["quote"]
     return(response)
 
+def get_temp(q):
+    url = "https://api.openweathermap.org/data/2.5/weather?"
+    key = os.getenv('WEATHER_API_KEY')
+    city = q
+    url = url + "appid=" + key + "&q=" + city
+    response = requests.get(url)
+    response = response.json()
+    temp_kelvin = response["main"]["temp"]
+    temp_celc = temp_kelvin - 273
+    temp_far = (1.8 * temp_celc) + 32
+    return(round(temp_far))
+
+def get_condition(q):
+    url = "https://api.openweathermap.org/data/2.5/weather?"
+    key = os.getenv('WEATHER_API_KEY')
+    city = q
+    url = url + "appid=" + key + "&q=" + city
+    response = requests.get(url)
+    response = response.json()
+    condition = response["weather"][0]["main"]
+    return(condition)
