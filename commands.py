@@ -63,5 +63,19 @@ async def avery(ctx):
   quote = get_avery()
   await ctx.send(quote)
 
+@bot.command()
+async def coin(ctx):
+  choice = random.randint(1,2)
+  coin = "Heads!"
+  if choice == 1:
+    coin = "Tails!"
+  await ctx.send(coin)
+
+@bot.command()
+async def dice(ctx, n: int):
+  num = random.randint(1, n)
+  await ctx.send("You rolled a " + str(num) + "!")
+
+
 TOKEN = os.getenv('DISCORD_TOKEN')
 bot.run(TOKEN)
