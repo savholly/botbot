@@ -3,7 +3,8 @@ Bot Bot is a Discord bot I made for my server that I created for my high school 
 The following commands have been implemented so far:  
 **!hello** - Greets the user who called the command. Takes no parameters.    
 **!dog** - Returns a random image of a dog. Takes no parameters.  
-**!cat** - Returns a random image of a cat. Takes no parameters.  
+**!cat** - Returns a random image of a
+ cat. Takes no parameters.  
 **!happy** - Adds what the user types after !happy to a list to be used with !sad, the list resets when the bot is restarted. Takes one parameter: the item that makes you happy as a string.  
 **!sad** - Returns a randomly selected item from the list populated by !happy. Takes no parameters.  
 **!calc** - Performs basic 4 function operations. Takes three parameters: the first number as a double, the operation as a string, and the second number as a double.  
@@ -14,3 +15,4 @@ The following commands have been implemented so far:
 **!joke** - Returns a random joke. Takes no parameters.  
 **!meme** - Returns a random meme. Takes no parameters.  
 **!rockpaperscissors** - Returns the results of a game of rock, paper, scissors with the bot. Takes one parameter: Your choice of rock, paper, or scissors as a string.  
+Example of what a command looks like:  <img width="627" alt="Screen Shot 2022-09-30 at 1 11 03 PM" src="https://user-images.githubusercontent.com/89149299/193331484-8b959d88-628a-4d26-9bd0-a6f1ba126d8b.png">
