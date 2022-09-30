@@ -15,4 +15,5 @@ The following commands have been implemented so far:
 **!joke** - Returns a random joke. Takes no parameters.  
 **!meme** - Returns a random meme. Takes no parameters.  
 **!rockpaperscissors** - Returns the results of a game of rock, paper, scissors with the bot. Takes one parameter: Your choice of rock, paper, or scissors as a string.  
-Example of what a command looks like:  <img width="627" alt="Screen Shot 2022-09-30 at 1 11 03 PM" src="https://user-images.githubusercontent.com/89149299/193331484-8b959d88-628a-4d26-9bd0-a6f1ba126d8b.png">
+Example of what a command looks like:    
+<img width="627" alt="Screen Shot 2022-09-30 at 1 11 03 PM" src="https://user-images.githubusercontent.com/89149299/193331484-8b959d88-628a-4d26-9bd0-a6f1ba126d8b.png">
